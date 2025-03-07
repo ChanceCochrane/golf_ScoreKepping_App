@@ -1,6 +1,9 @@
 <!-- dashboard.component.html -->
 <div class="container">
-  <div *ngFor="let box of boxes" class="box">{{ box }}</div>
+  <div class="left-column">Name</div> <!-- Left-side column -->
+  <div class="boxes-container">
+    <div *ngFor="let box of boxes" class="box">{{ box }}</div>
+  </div>
 </div>
 
 
